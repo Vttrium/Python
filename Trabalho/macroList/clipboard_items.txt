@@ -1,0 +1,253 @@
+Itens copiados para a área de transferência:
+# Inicializa a lista para armazenar os números
+numbers = []
+
+print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
+
+while True:
+    # Solicita entrada do usuário
+    user_input = input("Número: ")
+    
+    # Verifica se o usuário deseja sair
+    if user_input.upper() == 'N':
+        break
+    
+    # Tenta converter a entrada em número
+    try:
+        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
+        numbers.append(number)
+    except ValueError:
+        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
+
+# Exibe a lista pronta para uso
+print("\nLista gerada:")
+print(numbers)
+
+# Inicializa a lista para armazenar os números
+numbers = []
+
+print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
+
+while True:
+    # Solicita entrada do usuário
+    user_input = input("Número: ")
+    
+    # Verifica se o usuário deseja sair
+    if user_input.upper() == 'N':
+        break
+    
+    # Tenta converter a entrada em número
+    try:
+        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
+        numbers.append(number)
+    except ValueError:
+        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
+
+# Exibe a lista pronta para uso
+print("\nLista gerada:")
+print(numbers)
+
+# Inicializa a lista para armazenar os números
+numbers = []
+
+print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
+
+while True:
+    # Solicita entrada do usuário
+    user_input = input("Número: ")
+    
+    # Verifica se o usuário deseja sair
+    if user_input.upper() == 'N':
+        break
+    
+    # Tenta converter a entrada em número
+    try:
+        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
+        numbers.append(number)
+    except ValueError:
+        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
+
+# Exibe a lista pronta para uso
+print("\nLista gerada:")
+print(numbers)
+
+def play_macro():
+    time.sleep(1.66)
+    pa.click(-196, 105)  # Mouse click at (-196, 105)
+    time.sleep(4.04)
+    pa.write('3')  # Type: 3
+    time.sleep(2.74)
+    pa.hotkey('page down')  # Hotkey: page down
+    time.sleep(0.00)
+    pa.hotkey('tab')  # Hotkey: tab
+    time.sleep(0.53)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(1.39)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(3.21)
+    pa.click(-354, 250)  # Mouse click at (-354, 250)
+    time.sleep(1.88)
+    pa.click(-367, 293)  # Mouse click at (-367, 293)
+    time.sleep(2.36)
+    pa.click(-744, 367)  # Mouse click at (-744, 367)
+    time.sleep(2.05)
+    pa.click(-774, 436)  # Mouse click at (-774, 436)
+    time.sleep(4.45)
+    pa.click(-857, 865)  # Mouse click at (-857, 865)
+    time.sleep(3.10)
+    pa.click(-933, 79)  # Mouse click at (-933, 79)
+    time.sleep(2.32)
+    pa.click(265, 130)  # Mouse click at (265, 130)
+def play_macro():
+    time.sleep(1.66)
+    pa.click(-196, 105)  # Mouse click at (-196, 105)
+    time.sleep(4.04)
+    pa.write('3')  # Type: 3
+    time.sleep(2.74)
+    pa.hotkey('page down')  # Hotkey: page down
+    time.sleep(0.00)
+    pa.hotkey('tab')  # Hotkey: tab
+    time.sleep(0.53)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(1.39)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(3.21)
+    pa.click(-354, 250)  # Mouse click at (-354, 250)
+    time.sleep(1.88)
+    pa.click(-367, 293)  # Mouse click at (-367, 293)
+    time.sleep(2.36)
+    pa.click(-744, 367)  # Mouse click at (-744, 367)
+    time.sleep(2.05)
+    pa.click(-774, 436)  # Mouse click at (-774, 436)
+    time.sleep(4.45)
+    pa.click(-857, 865)  # Mouse click at (-857, 865)
+    time.sleep(3.10)
+    pa.click(-933, 79)  # Mouse click at (-933, 79)
+    time.sleep(2.32)
+    pa.click(265, 130)  # Mouse click at (265, 130)
+def play_macro():
+    time.sleep(1.66)
+    pa.click(-196, 105)  # Mouse click at (-196, 105)
+    time.sleep(4.04)
+    pa.write('3')  # Type: 3
+    time.sleep(2.74)
+    pa.hotkey('page down')  # Hotkey: page down
+    time.sleep(0.00)
+    pa.hotkey('tab')  # Hotkey: tab
+    time.sleep(0.53)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(1.39)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(3.21)
+    pa.click(-354, 250)  # Mouse click at (-354, 250)
+    time.sleep(1.88)
+    pa.click(-367, 293)  # Mouse click at (-367, 293)
+    time.sleep(2.36)
+    pa.click(-744, 367)  # Mouse click at (-744, 367)
+    time.sleep(2.05)
+    pa.click(-774, 436)  # Mouse click at (-774, 436)
+    time.sleep(4.45)
+    pa.click(-857, 865)  # Mouse click at (-857, 865)
+    time.sleep(3.10)
+    pa.click(-933, 79)  # Mouse click at (-933, 79)
+    time.sleep(2.32)
+    pa.click(265, 130)  # Mouse click at (265, 130)
+import pyautogui as pa
+import time
+import pyautogui as pa
+import time
+import pyautogui as pa
+import time
+def
+
+def
+
+def
+
+[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
+[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
+[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
+numbersTeste
+numbersTeste
+numbersTeste
+play_verificacao(numbersTeste)
+play_verificacao(numbersTeste)
+play_verificacao(numbersTeste)
+numbersTeste = [3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
+numbersTeste = [3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
+        time.sleep(0.75)
+        time.sleep(0.75)
+        time.sleep(1.5-)
+
+        time.sleep(1.5-)
+
+linksMecanicos = [
+    "https://sa.sinnc.app/drpedrinho/2/IDSSaude.dll",
+    "http://177.84.3.1:8087/IDSSaude/idssaude.dll",
+    "https://sa.sinnc.app/agronomica/1/IDSSaude.dll",
+    "http://138.219.35.12:8087/IDSSaude/IDSSaude.dll",
+    "http://saude.pmtb.pr.gov.br:8087/IDSSaude/IDSSaude.dll",
+    "https://sa.sinnc.app/mangueirinha/1/IDSSaude.dll",
+    "https://sa.sinnc.app/novatebas/1/IDSSaude.dll",
+    "https://sa.sinnc.app/curiuva/2/IDSSaude.dll",
+    "https://sa.sinnc.app/mariopolis/1/IDSSaude.dll",
+    "https://sa.sinnc.app/santamariana/2/IDSSaude.dll",
+    "https://sa.sinnc.app/conims/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ijui/5/IDSSaude.dll",
+    "https://sa.sinnc.app/taio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/vidalramos/2/IDSSaude.dll",
+    "https://sa.sinnc.app/riodoscedros/2/IDSSaude.dll",
+    "https://sa.sinnc.app/salete/1/IDSSaude.dll",
+    "https://sa.sinnc.app/pomerode/2/IDSSaude.dll",
+    "https://sa.sinnc.app/laurentino/1/IDSSaude.dll",
+    "https://sa.sinnc.app/lontras/2/IDSSaude.dll",
+    "https://sa.sinnc.app/guabiruba/2/IDSSaude.dll",
+    "https://sa.sinnc.app/campoere/1/IDSSaude.dll",
+    "https://sa.sinnc.app/canoinhas/2/IDSSaude.dll",
+    "https://sa.sinnc.app/botuvera/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/2/IDSSaude.dll",
+    "https://sa.sinnc.app/apiuna/1/IDSSaude.dll",
+    "https://sa.sinnc.app/indaial/3/IDSSaude.dll",
+    "https://sa.sinnc.app/donaemma/2/IDSSaude.dll",
+    "https://sa.sinnc.app/bcs/3/IDSSaude.dll",
+    "https://sa.sinnc.app/presidente/2/IDSSaude.dll",
+    "https://sa.sinnc.app/aurora/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ouroverde/1/IDSSaude.dll",
+    "https://sa.sinnc.app/rodeio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/1/IDSSaude.dll"
+]
+linksMecanicos = [
+    "https://sa.sinnc.app/drpedrinho/2/IDSSaude.dll",
+    "http://177.84.3.1:8087/IDSSaude/idssaude.dll",
+    "https://sa.sinnc.app/agronomica/1/IDSSaude.dll",
+    "http://138.219.35.12:8087/IDSSaude/IDSSaude.dll",
+    "http://saude.pmtb.pr.gov.br:8087/IDSSaude/IDSSaude.dll",
+    "https://sa.sinnc.app/mangueirinha/1/IDSSaude.dll",
+    "https://sa.sinnc.app/novatebas/1/IDSSaude.dll",
+    "https://sa.sinnc.app/curiuva/2/IDSSaude.dll",
+    "https://sa.sinnc.app/mariopolis/1/IDSSaude.dll",
+    "https://sa.sinnc.app/santamariana/2/IDSSaude.dll",
+    "https://sa.sinnc.app/conims/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ijui/5/IDSSaude.dll",
+    "https://sa.sinnc.app/taio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/vidalramos/2/IDSSaude.dll",
+    "https://sa.sinnc.app/riodoscedros/2/IDSSaude.dll",
+    "https://sa.sinnc.app/salete/1/IDSSaude.dll",
+    "https://sa.sinnc.app/pomerode/2/IDSSaude.dll",
+    "https://sa.sinnc.app/laurentino/1/IDSSaude.dll",
+    "https://sa.sinnc.app/lontras/2/IDSSaude.dll",
+    "https://sa.sinnc.app/guabiruba/2/IDSSaude.dll",
+    "https://sa.sinnc.app/campoere/1/IDSSaude.dll",
+    "https://sa.sinnc.app/canoinhas/2/IDSSaude.dll",
+    "https://sa.sinnc.app/botuvera/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/2/IDSSaude.dll",
+    "https://sa.sinnc.app/apiuna/1/IDSSaude.dll",
+    "https://sa.sinnc.app/indaial/3/IDSSaude.dll",
+    "https://sa.sinnc.app/donaemma/2/IDSSaude.dll",
+    "https://sa.sinnc.app/bcs/3/IDSSaude.dll",
+    "https://sa.sinnc.app/presidente/2/IDSSaude.dll",
+    "https://sa.sinnc.app/aurora/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ouroverde/1/IDSSaude.dll",
+    "https://sa.sinnc.app/rodeio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/1/IDSSaude.dll"
+]
