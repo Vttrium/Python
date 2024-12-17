@@ -1,0 +1,45 @@
+import webbrowser
+
+links = [
+    "http://138.219.35.13:8090/IDSSaude/IDSSaude.dll",
+    "https://sa.sinnc.app/drpedrinho/2/IDSSaude.dll",
+    "http://177.84.3.1:8087/IDSSaude/idssaude.dll",
+    "https://sa.sinnc.app/agronomica/1/IDSSaude.dll",
+    "http://138.219.35.12:8087/IDSSaude/IDSSaude.dll",
+    "http://saude.pmtb.pr.gov.br:8087/IDSSaude/IDSSaude.dll",
+    "https://sa.sinnc.app/mangueirinha/1/IDSSaude.dll",
+    "https://sa.sinnc.app/novatebas/1/IDSSaude.dll",
+    "https://sa.sinnc.app/curiuva/2/IDSSaude.dll",
+    "https://sa.sinnc.app/mariopolis/1/IDSSaude.dll",
+    "https://sa.sinnc.app/santamariana/2/IDSSaude.dll",
+    "https://sa.sinnc.app/conims/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ijui/5/IDSSaude.dll",
+    "https://sa.sinnc.app/sinncsp/",
+    "https://sa.sinnc.app/ciaps/1/IDSSaude.dll",
+    "https://sa.sinnc.app/taio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/vidalramos/2/IDSSaude.dll",
+    "https://sa.sinnc.app/riodoscedros/2/IDSSaude.dll",
+    "https://sa.sinnc.app/salete/1/IDSSaude.dll",
+    "https://sa.sinnc.app/pomerode/2/IDSSaude.dll",
+    "https://sa.sinnc.app/laurentino/1/IDSSaude.dll",
+    "https://sa.sinnc.app/lontras/2/IDSSaude.dll",
+    "https://sa.sinnc.app/guabiruba/2/IDSSaude.dll",
+    "https://chapeco-saude.ids.inf.br/chapeco/4/IDSSaude.dll",
+    "https://sa.sinnc.app/campoere/1/IDSSaude.dll",
+    "https://sa.sinnc.app/canoinhas/2/IDSSaude.dll",
+    "https://sa.sinnc.app/botuvera/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/2/IDSSaude.dll",
+    "https://sa.sinnc.app/apiuna/1/IDSSaude.dll",
+    "https://sa.sinnc.app/indaial/3/IDSSaude.dll",
+    "https://sa.sinnc.app/donaemma/2/IDSSaude.dll",
+    "https://sa.sinnc.app/bcs/3/IDSSaude.dll",
+    "https://sa.sinnc.app/presidente/2/IDSSaude.dll",
+    "https://sa.sinnc.app/conims/2/IDSSaude.dll",
+    "https://sa.sinnc.app/aurora/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ouroverde/1/IDSSaude.dll",
+    "https://sa.sinnc.app/rodeio/1/IDSSaude.dll",
+    "https://sa.sinnc.app/ascurra/1/IDSSaude.dll"
+]
+
+for link in links:
+    webbrowser.open(link)
