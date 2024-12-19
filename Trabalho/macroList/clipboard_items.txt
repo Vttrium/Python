@@ -1,253 +1,45 @@
 Itens copiados para a área de transferência:
-# Inicializa a lista para armazenar os números
-numbers = []
-
-print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
-
-while True:
-    # Solicita entrada do usuário
-    user_input = input("Número: ")
-    
-    # Verifica se o usuário deseja sair
-    if user_input.upper() == 'N':
-        break
-    
-    # Tenta converter a entrada em número
-    try:
-        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
-        numbers.append(number)
-    except ValueError:
-        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
-
-# Exibe a lista pronta para uso
-print("\nLista gerada:")
-print(numbers)
-
-# Inicializa a lista para armazenar os números
-numbers = []
-
-print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
-
-while True:
-    # Solicita entrada do usuário
-    user_input = input("Número: ")
-    
-    # Verifica se o usuário deseja sair
-    if user_input.upper() == 'N':
-        break
-    
-    # Tenta converter a entrada em número
-    try:
-        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
-        numbers.append(number)
-    except ValueError:
-        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
-
-# Exibe a lista pronta para uso
-print("\nLista gerada:")
-print(numbers)
-
-# Inicializa a lista para armazenar os números
-numbers = []
-
-print("Digite os números para adicionar à lista. Digite 'N' para finalizar.")
-
-while True:
-    # Solicita entrada do usuário
-    user_input = input("Número: ")
-    
-    # Verifica se o usuário deseja sair
-    if user_input.upper() == 'N':
-        break
-    
-    # Tenta converter a entrada em número
-    try:
-        number = float(user_input)  # Pode usar int(user_input) se quiser apenas inteiros
-        numbers.append(number)
-    except ValueError:
-        print("Entrada inválida. Por favor, digite um número ou 'N' para sair.")
-
-# Exibe a lista pronta para uso
-print("\nLista gerada:")
-print(numbers)
-
 def play_macro():
-    time.sleep(1.66)
-    pa.click(-196, 105)  # Mouse click at (-196, 105)
-    time.sleep(4.04)
+    time.sleep(2.23)
+    pa.click(-1840, 79)  # Mouse click at (-1840, 79)
+    time.sleep(1.93)
+    pa.click(-1330, 109)  # Mouse click at (-1330, 109)
+    time.sleep(3.35)
+    pa.write('1')  # Type: 1
+    time.sleep(0.38)
+    pa.write('6')  # Type: 6
+    time.sleep(0.22)
     pa.write('3')  # Type: 3
-    time.sleep(2.74)
-    pa.hotkey('page down')  # Hotkey: page down
-    time.sleep(0.00)
+    time.sleep(0.99)
     pa.hotkey('tab')  # Hotkey: tab
-    time.sleep(0.53)
+    time.sleep(0.82)
     pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(1.39)
+    time.sleep(1.64)
     pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(3.21)
-    pa.click(-354, 250)  # Mouse click at (-354, 250)
-    time.sleep(1.88)
-    pa.click(-367, 293)  # Mouse click at (-367, 293)
-    time.sleep(2.36)
-    pa.click(-744, 367)  # Mouse click at (-744, 367)
-    time.sleep(2.05)
-    pa.click(-774, 436)  # Mouse click at (-774, 436)
-    time.sleep(4.45)
-    pa.click(-857, 865)  # Mouse click at (-857, 865)
-    time.sleep(3.10)
-    pa.click(-933, 79)  # Mouse click at (-933, 79)
-    time.sleep(2.32)
-    pa.click(265, 130)  # Mouse click at (265, 130)
-def play_macro():
-    time.sleep(1.66)
-    pa.click(-196, 105)  # Mouse click at (-196, 105)
-    time.sleep(4.04)
-    pa.write('3')  # Type: 3
-    time.sleep(2.74)
-    pa.hotkey('page down')  # Hotkey: page down
-    time.sleep(0.00)
+    time.sleep(3.65)
+    pa.click(-1138, 340)  # Mouse click at (-1138, 340)
+    time.sleep(2.56)
+    pa.click(-1166, 386)  # Mouse click at (-1166, 386)
+    time.sleep(2.03)
+    pa.click(-1572, 103)  # Mouse click at (-1572, 103)
+    time.sleep(2.11)
+    pa.click(-1667, 137)  # Mouse click at (-1667, 137)
+    time.sleep(1.34)
+    pa.click(-1682, 163)  # Mouse click at (-1682, 163)
+    time.sleep(1.02)
+    pa.click(-1647, 194)  # Mouse click at (-1647, 194)
+    time.sleep(1.47)
+    pa.write('1')  # Type: 1
+    time.sleep(1.25)
+    pa.hotkey('enter')  # Hotkey: enter
+    time.sleep(1.08)
     pa.hotkey('tab')  # Hotkey: tab
-    time.sleep(0.53)
-    pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(1.39)
-    pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(3.21)
-    pa.click(-354, 250)  # Mouse click at (-354, 250)
-    time.sleep(1.88)
-    pa.click(-367, 293)  # Mouse click at (-367, 293)
-    time.sleep(2.36)
-    pa.click(-744, 367)  # Mouse click at (-744, 367)
-    time.sleep(2.05)
-    pa.click(-774, 436)  # Mouse click at (-774, 436)
-    time.sleep(4.45)
-    pa.click(-857, 865)  # Mouse click at (-857, 865)
-    time.sleep(3.10)
-    pa.click(-933, 79)  # Mouse click at (-933, 79)
-    time.sleep(2.32)
-    pa.click(265, 130)  # Mouse click at (265, 130)
-def play_macro():
-    time.sleep(1.66)
-    pa.click(-196, 105)  # Mouse click at (-196, 105)
-    time.sleep(4.04)
-    pa.write('3')  # Type: 3
-    time.sleep(2.74)
-    pa.hotkey('page down')  # Hotkey: page down
-    time.sleep(0.00)
-    pa.hotkey('tab')  # Hotkey: tab
-    time.sleep(0.53)
-    pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(1.39)
-    pa.hotkey('enter')  # Hotkey: enter
-    time.sleep(3.21)
-    pa.click(-354, 250)  # Mouse click at (-354, 250)
-    time.sleep(1.88)
-    pa.click(-367, 293)  # Mouse click at (-367, 293)
-    time.sleep(2.36)
-    pa.click(-744, 367)  # Mouse click at (-744, 367)
-    time.sleep(2.05)
-    pa.click(-774, 436)  # Mouse click at (-774, 436)
-    time.sleep(4.45)
-    pa.click(-857, 865)  # Mouse click at (-857, 865)
-    time.sleep(3.10)
-    pa.click(-933, 79)  # Mouse click at (-933, 79)
-    time.sleep(2.32)
-    pa.click(265, 130)  # Mouse click at (265, 130)
-import pyautogui as pa
-import time
-import pyautogui as pa
-import time
-import pyautogui as pa
-import time
-def
-
-def
-
-def
-
-[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
-[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
-[3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
-numbersTeste
-numbersTeste
-numbersTeste
-play_verificacao(numbersTeste)
-play_verificacao(numbersTeste)
-play_verificacao(numbersTeste)
-numbersTeste = [3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
-numbersTeste = [3, 4, 5, 6, 7, 10, 11, 12, 13, 297, 300, 301, 303, 307, 309, 733, 1404, 1405, 1408, 1410, 1414, 1415]
-        time.sleep(0.75)
-        time.sleep(0.75)
-        time.sleep(1.5-)
-
-        time.sleep(1.5-)
-
-linksMecanicos = [
-    "https://sa.sinnc.app/drpedrinho/2/IDSSaude.dll",
-    "http://177.84.3.1:8087/IDSSaude/idssaude.dll",
-    "https://sa.sinnc.app/agronomica/1/IDSSaude.dll",
-    "http://138.219.35.12:8087/IDSSaude/IDSSaude.dll",
-    "http://saude.pmtb.pr.gov.br:8087/IDSSaude/IDSSaude.dll",
-    "https://sa.sinnc.app/mangueirinha/1/IDSSaude.dll",
-    "https://sa.sinnc.app/novatebas/1/IDSSaude.dll",
-    "https://sa.sinnc.app/curiuva/2/IDSSaude.dll",
-    "https://sa.sinnc.app/mariopolis/1/IDSSaude.dll",
-    "https://sa.sinnc.app/santamariana/2/IDSSaude.dll",
-    "https://sa.sinnc.app/conims/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ijui/5/IDSSaude.dll",
-    "https://sa.sinnc.app/taio/1/IDSSaude.dll",
-    "https://sa.sinnc.app/vidalramos/2/IDSSaude.dll",
-    "https://sa.sinnc.app/riodoscedros/2/IDSSaude.dll",
-    "https://sa.sinnc.app/salete/1/IDSSaude.dll",
-    "https://sa.sinnc.app/pomerode/2/IDSSaude.dll",
-    "https://sa.sinnc.app/laurentino/1/IDSSaude.dll",
-    "https://sa.sinnc.app/lontras/2/IDSSaude.dll",
-    "https://sa.sinnc.app/guabiruba/2/IDSSaude.dll",
-    "https://sa.sinnc.app/campoere/1/IDSSaude.dll",
-    "https://sa.sinnc.app/canoinhas/2/IDSSaude.dll",
-    "https://sa.sinnc.app/botuvera/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ascurra/2/IDSSaude.dll",
-    "https://sa.sinnc.app/apiuna/1/IDSSaude.dll",
-    "https://sa.sinnc.app/indaial/3/IDSSaude.dll",
-    "https://sa.sinnc.app/donaemma/2/IDSSaude.dll",
-    "https://sa.sinnc.app/bcs/3/IDSSaude.dll",
-    "https://sa.sinnc.app/presidente/2/IDSSaude.dll",
-    "https://sa.sinnc.app/aurora/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ouroverde/1/IDSSaude.dll",
-    "https://sa.sinnc.app/rodeio/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ascurra/1/IDSSaude.dll"
-]
-linksMecanicos = [
-    "https://sa.sinnc.app/drpedrinho/2/IDSSaude.dll",
-    "http://177.84.3.1:8087/IDSSaude/idssaude.dll",
-    "https://sa.sinnc.app/agronomica/1/IDSSaude.dll",
-    "http://138.219.35.12:8087/IDSSaude/IDSSaude.dll",
-    "http://saude.pmtb.pr.gov.br:8087/IDSSaude/IDSSaude.dll",
-    "https://sa.sinnc.app/mangueirinha/1/IDSSaude.dll",
-    "https://sa.sinnc.app/novatebas/1/IDSSaude.dll",
-    "https://sa.sinnc.app/curiuva/2/IDSSaude.dll",
-    "https://sa.sinnc.app/mariopolis/1/IDSSaude.dll",
-    "https://sa.sinnc.app/santamariana/2/IDSSaude.dll",
-    "https://sa.sinnc.app/conims/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ijui/5/IDSSaude.dll",
-    "https://sa.sinnc.app/taio/1/IDSSaude.dll",
-    "https://sa.sinnc.app/vidalramos/2/IDSSaude.dll",
-    "https://sa.sinnc.app/riodoscedros/2/IDSSaude.dll",
-    "https://sa.sinnc.app/salete/1/IDSSaude.dll",
-    "https://sa.sinnc.app/pomerode/2/IDSSaude.dll",
-    "https://sa.sinnc.app/laurentino/1/IDSSaude.dll",
-    "https://sa.sinnc.app/lontras/2/IDSSaude.dll",
-    "https://sa.sinnc.app/guabiruba/2/IDSSaude.dll",
-    "https://sa.sinnc.app/campoere/1/IDSSaude.dll",
-    "https://sa.sinnc.app/canoinhas/2/IDSSaude.dll",
-    "https://sa.sinnc.app/botuvera/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ascurra/2/IDSSaude.dll",
-    "https://sa.sinnc.app/apiuna/1/IDSSaude.dll",
-    "https://sa.sinnc.app/indaial/3/IDSSaude.dll",
-    "https://sa.sinnc.app/donaemma/2/IDSSaude.dll",
-    "https://sa.sinnc.app/bcs/3/IDSSaude.dll",
-    "https://sa.sinnc.app/presidente/2/IDSSaude.dll",
-    "https://sa.sinnc.app/aurora/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ouroverde/1/IDSSaude.dll",
-    "https://sa.sinnc.app/rodeio/1/IDSSaude.dll",
-    "https://sa.sinnc.app/ascurra/1/IDSSaude.dll"
-]
+    time.sleep(3.37)
+    pa.click(-1768, 867)  # Mouse click at (-1768, 867)
+    time.sleep(3.01)
+    pa.click(-1839, 89)  # Mouse click at (-1839, 89)
+lista_de_codigos
+play_macro
+play_codigo_obrigatorio(lista_de_codigos)
+['274', '149', '148', '159', '303', '152', '151', '128', '299', '145', '132', '142', '141', '139', '313', '422', '387', '385', '384', '376', '276', '390', '408', '407', '406', '399', '304', '283', '266', '288', '265', '618', '170', '366', '168', '392', '425', '140', '882', '449', '286', '379', '282', '342', '339', '353', '352', '346', '343', '351', '341', '340', '622', '338', '381', '336', '335', '769', '880', '879', '857', '184', '853', '448', '834', '859', '287', '308', '354', '766', '295', '302', '305', '616', '330', '160', '155', '310', 
+'298', '301', '165', '296', '325', '314', '334', '320', '333', '324', '741', '323', '321', '615', '319', '318', '317', '316', '311', '309', '398', '156', '163', '162', '161', '171', '167', '164', '227', '221', '281', '271', '264', '136', '135', '176', '177', '188', '180', '359', '179', '234', '172', '360', '175', '240', '174', '178', '213', '1007', '38', '629', '358', '297', '1012', '39', '1006', '989', '988', '984', '975', '974', '270', '231', '267', '261', '259', '233', '232', '40', '228', '224', '950', '225', '223', '41', '367', '277', '683', '293', '678', '255', '676', '685', '275', '269', '253', '661', '660', '659', '326', '693', '364', '374', '355', '356', '348', '680', '312', '690', '689', '688', '686', '658', '182', '246', '251', '250', '249', '248', '247', '198', '244', '229', '190', '189', '187', '183', '361', '218', '254', '166', '181', '226', '222', '200', '216', '214', '211', '210', '202', '157']
