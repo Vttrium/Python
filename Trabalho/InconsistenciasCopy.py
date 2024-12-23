@@ -7,15 +7,25 @@ import threading  # Para rodar a função em segundo plano
 
 # Função para realizar o "Ctrl+C" e copiar o texto da área de captura
 def play_copy_incosistencia():
-    time.sleep(1.19)
-    pa.mouseDown(-1149, 839)  # Mouse down at (-1149, 839)
-    time.sleep(0.11)
-    pa.moveTo(-1153, 838)  # Mouse move during drag
-    time.sleep(0.42)
-    pa.mouseUp(-1159, 830)  # Mouse up at (-1159, 830)
-    time.sleep(1.09)
+    time.sleep(1.27)
+    pa.mouseDown(-1152, 838)  # Mouse down at (-1152, 838)
+    time.sleep(0.08)
+    pa.mouseUp(-1152, 838)  # Mouse up at (-1152, 838)
+    time.sleep(0.74)
+    pa.mouseDown(-1143, 844)  # Mouse down at (-1143, 844)
+    time.sleep(0.08)
+    pa.moveTo(-1143, 844)  # Mouse move during drag
+    time.sleep(0.05)
+    pa.moveTo(-1149, 842)  # Mouse move during drag
+    time.sleep(0.06)
+    pa.moveTo(-1163, 835)  # Mouse move during drag
+    time.sleep(0.06)
+    pa.moveTo(-1170, 833)  # Mouse move during drag
+    time.sleep(0.45)
+    pa.mouseUp(-1176, 830)  # Mouse up at (-1176, 830)
+    time.sleep(0.64)
     pa.press('ctrl')  # Key press: ctrl
-    time.sleep(0.21)
+    time.sleep(0.29)
     pa.hotkey("ctrl", "c")  # Hotkey: ctrl+c
 
 # Função para remover a primeira linha (título), linha da data, linha com número isolado, linha "Área / Equipe" e linha "Inconsist. CNES:"
@@ -26,10 +36,12 @@ def remove_first_and_date_line():
     # Divide o texto em linhas
     lines = raw_text.splitlines()
 
-    # Remove a primeira linha (título), a linha da data (quinta linha), qualquer linha com número isolado, linha "Área / Equipe" e linha "Inconsist. CNES:"
+    # Remove a primeira linha (título), a linha da data (quinta linha), qualquer linha com número isolado,
+    # linha "Área / Equipe", e a linha subsequente com a informação "1 - PSF / VILA MARIANA"
     if len(lines) > 1:
-        lines = [line for index, line in enumerate(lines) if index != 0 and index != 4 and 
-                 not line.strip().isdigit() and "Área / Equipe" not in line and "Inconsist. CNES:" not in line]
+        lines = [line for index, line in enumerate(lines) if index != 0 and index != 4 and
+                 "Área / Equipe" not in line and not line.strip().isdigit() and 
+                 "Inconsist. CNES:" not in line and (index == 0 or "Área / Equipe" not in lines[index - 1])]
 
     # Recria o texto sem as linhas removidas
     new_text = "\n".join(lines)
@@ -56,7 +68,7 @@ def format_text(raw_text):
             inconsistencias_cnes += "\n➥ Não encontrado no XML, nem no CNES;"
 
         # Formatação da saída de acordo com o novo formato solicitado, com apenas um enter no começo e no final
-        formatted_output = f"Unidade de Saúde: {unidade_saude}\nProfissional: {profissional}\nEspecialidade: {especialidade}\nInconsistências CNES: {inconsistencias_cnes}"
+        formatted_output = f"\nUnidade de Saúde: {unidade_saude}\nProfissional: {profissional}\nEspecialidade: {especialidade}\nInconsistências CNES: {inconsistencias_cnes}\n"
 
     except Exception as e:
         formatted_output = f"Erro ao formatar o texto: {e}"
