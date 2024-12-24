@@ -2566,5 +2566,3 @@ def play_macro():
     pa.hotkey("ctrl", "w")  # Hotkey: ctrl+w
     time.sleep(0.67)
     pa.hotkey("ctrl", "w")  # Hotkey: ctrl+w
-
-play_macro();
