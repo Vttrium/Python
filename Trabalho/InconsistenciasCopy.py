@@ -7,25 +7,25 @@ import threading  # Para rodar a função em segundo plano
 
 # Função para realizar o "Ctrl+C" e copiar o texto da área de captura
 def play_copy_incosistencia():
-    time.sleep(1.27)
+    time.sleep(2.27)
     pa.mouseDown(-1152, 838)  # Mouse down at (-1152, 838)
-    time.sleep(0.08)
+    time.sleep(2.08)
     pa.mouseUp(-1152, 838)  # Mouse up at (-1152, 838)
-    time.sleep(0.74)
+    time.sleep(2.74)
     pa.mouseDown(-1143, 844)  # Mouse down at (-1143, 844)
-    time.sleep(0.08)
+    time.sleep(2.08)
     pa.moveTo(-1143, 844)  # Mouse move during drag
-    time.sleep(0.05)
+    time.sleep(2.05)
     pa.moveTo(-1149, 842)  # Mouse move during drag
-    time.sleep(0.06)
+    time.sleep(2.06)
     pa.moveTo(-1163, 835)  # Mouse move during drag
-    time.sleep(0.06)
+    time.sleep(2.06)
     pa.moveTo(-1170, 833)  # Mouse move during drag
-    time.sleep(0.45)
+    time.sleep(2.45)
     pa.mouseUp(-1176, 830)  # Mouse up at (-1176, 830)
-    time.sleep(0.64)
+    time.sleep(2.64)
     pa.press('ctrl')  # Key press: ctrl
-    time.sleep(0.29)
+    time.sleep(2.29)
     pa.hotkey("ctrl", "c")  # Hotkey: ctrl+c
 
 # Função para remover a primeira linha (título), linha da data, linha com número isolado, linha "Área / Equipe" e linha "Inconsist. CNES:"
@@ -91,10 +91,10 @@ def main():
     while True:
         if keyboard.is_pressed('F9'):  # Quando a tecla F9 for pressionada
             play_copy_incosistencia()  # Executa a cópia com Ctrl+C
-            time.sleep(0.5)  # Espera o texto ser copiado
+            time.sleep(2.5)  # Espera o texto ser copiado
             remove_first_and_date_line()  # Remove as linhas desnecessárias
             copy_formatted_text()  # Formata e copia para a área de transferência
-            time.sleep(1)  # Evita múltiplas execuções rápidas
+            time.sleep(2)  # Evita múltiplas execuções rápidas
 
 # Função para rodar o código em segundo plano
 def run_in_background():
